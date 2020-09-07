@@ -1,0 +1,32 @@
+<button 
+    class="btn btn-primary"
+    (click)="addForm()">
+    Add Book
+</button>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Book</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody *ngFor="let book of books; let i = index">
+                    <tr>
+                        <th scope="row">{{ i + 1 }}</th>
+                        <td>{{ book.name }}</td>
+                        <td><a style="cursor: pointer;" (click)="onViewBook(i)">View</a></td>
+                        <td><a style="cursor: pointer;" (click)="onEditBook(i)" >Edit</a></td>
+                        <td><a style="cursor: pointer;" (click)="onDeleteBook(i)">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

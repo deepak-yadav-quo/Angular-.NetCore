@@ -1,0 +1,29 @@
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/appsettings.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/angular.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/e2e/tsconfig.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/package-lock.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/package.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/tsconfig.app.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/tsconfig.base.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/tsconfig.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/tsconfig.spec.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/webapp/tslint.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/BookStore WebApi
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/BookStore WebApi.deps.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/BookStore WebApi.runtimeconfig.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/BookStore WebApi.runtimeconfig.dev.json
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/BookStore WebApi.dll
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/bin/Debug/netcoreapp3.1/BookStore WebApi.pdb
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.csprojAssemblyReference.cache
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.AssemblyInfoInputs.cache
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.AssemblyInfo.cs
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.csproj.CoreCompileInputs.cache
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.MvcApplicationPartsAssemblyInfo.cache
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.RazorTargetAssemblyInfo.cache
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/staticwebassets/BookStore WebApi.StaticWebAssets.Manifest.cache
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/staticwebassets/BookStore WebApi.StaticWebAssets.xml
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.dll
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.pdb
+/home/deepak/Documents/DotNETFramework/BookStore WebApi/obj/Debug/netcoreapp3.1/BookStore WebApi.genruntimeconfig.cache

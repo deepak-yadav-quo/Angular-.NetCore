@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-xs-12">
+        <button class="btn btn-primary" (click)="toDashboard()">Go Back</button>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+        <h3>{{ book.name }}</h3>
+        <h5>Author: {{ book.authorName }}</h5>
+        <h5>Published On: {{ book.publishDate | date }}</h5>
+        <h5>Genre:{{ book.genre }}</h5>
+    </div>
+</div>

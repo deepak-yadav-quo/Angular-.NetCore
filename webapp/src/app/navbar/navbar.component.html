@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Book Store</a>
+        </div>
+        <div class="navbar-default">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-default navbar-collapse" id="navbarMenu">
+                <ul class=" nav navbar-nav">
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link"
+                            *ngIf="!isAuthenticated"
+                            [routerLink] = "['auth']">
+                            Authenticate
+                        </a>
+                    </li>
+                </ul>
+                <ul class=" nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link"
+                            style="cursor: pointer;"
+                            (click)="onLogout()" 
+                            *ngIf="isAuthenticated">
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        
+    </div>
+    
+</nav>

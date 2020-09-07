@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-sm-8 col-md-6 offset-3">
+        <form [formGroup]="bookForm" (ngSubmit)="onAddBook()">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" formControlName="name">
+            </div>
+            <div class="form-group">
+                <label for="authorName">Author Name</label>
+                <input type="text" class="form-control" formControlName="authorName">
+            </div>
+            <div class="form-group" >
+                <label for="date">Publish Date</label>
+                <input 
+                    class="form-control"
+                    [(ngModel)]="model"
+                    [ngModelOptions]="{standalone: true}"
+                    ngbDatepicker #d="ngbDatepicker"
+                    formConrolName="publishDate">
+                <fa-icon [icon]="faCalendar" (click)="d.toggle()" type="button"></fa-icon>
+            </div>
+            <div class="form-group">
+                <label for="genre">Genre</label>
+                <input type="text" class="form-control" formControlName="genre">
+            </div>
+            <div>
+                <button class="btn btn-success" type="submit">{{ editMode ? 'Update Book' : 'Add Book' }}</button> |
+                <button class="btn btn-primary" type="button" (click)="onResetForm()">Reset</button> |
+                <button class="btn btn-danger" type="button" (click)="onCancel()">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
