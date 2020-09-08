@@ -6,6 +6,7 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
 import { BooksService } from './../books.service';
 import { DatePipe, formatCurrency } from '@angular/common';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
+import { Book } from '../book.model';
 
 
 @Component({
@@ -16,6 +17,7 @@ import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 export class BookEditComponent implements OnInit {
 
   id:number;
+  book: Book;
   bookForm: FormGroup;
   model: NgbDateStruct;
   editMode = false;
@@ -46,16 +48,14 @@ export class BookEditComponent implements OnInit {
     let genre = '';
 
     if(this.editMode) {
-      const book = this.booksService.getBook(this.id);
-      bookName = book.name;
-      authorName = book.authorName;
-      //publishDate = book.publishDate;
-      //console.log(publishDate.toDateString().substring(0,10));
+      this.book = this.booksService.getBook(this.id);
+      bookName = this.book.name;
+      authorName = this.book.authorName;
+      
       let dp = new DatePipe(navigator.language);
       let p = 'y-MM-dd'; // YYYY-MM-DD
-      publishDate = dp.transform(book.publishDate, p);
-      console.log(publishDate)
-      genre = book.genre;
+      publishDate = dp.transform(this.book.publishDate, p);
+      genre = this.book.genre;
     }
     
     this.bookForm = new FormGroup({
@@ -71,10 +71,8 @@ export class BookEditComponent implements OnInit {
     this.bookForm.value['publishDate'] = myDate;
     
     if(this.editMode) {
-      this.booksService.updateBook(this.id, this.bookForm.value);
+      this.booksService.updateBook(this.book.id, this.bookForm.value);
     } else {
-      console.log(this.booksService.books);
-      console.log(this.bookForm.value);
       this.booksService.addBook(this.bookForm.value);
     }
   }

@@ -14,8 +14,6 @@ export class BooksService {
                 private router: Router) {}
 
     addBook(book: Book) {
-        //this.books.push(book);
-        console.log(this.books);
         const addBookRequest = this.http
             .post(
                 'http://localhost:5000/book/post',
@@ -53,7 +51,7 @@ export class BooksService {
     }
 
     updateBook(id: number, updatedBook: Book) {
-        //this.books[id] = updatedBook;
+        updatedBook.id = id;
         const updateBookRequest = this.http
             .put(
                 'http://localhost:5000/book/put',
